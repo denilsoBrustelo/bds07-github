@@ -1,29 +1,46 @@
-.cep-search-container {
+.user-search-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
 }
 
-.cep-search-container h1 {
+.user-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 20px;
+}
+
+.user-search-container h1 {
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   margin: 50px 0;
 }
 
 .search-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   padding: 30px 40px;
-  background-color: #f6f6f6;
-  border-radius: 5px;
+  background: #E6F7FF;
+  border-radius: 16px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 30px 40px;
+  background: #F5F5F5;
+  border-radius: 8px;
+  margin-top: 54px;
 }
 
 .form-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 }
 
 .search-input {
@@ -31,7 +48,7 @@
   border: 1px solid #8c8c8c;
   border-radius: 4px;
   font-size: 16px;
-  text-align: center;
+  text-align: left;
   height: 40px;
   width: 240px;
   margin-bottom: 25px;
@@ -48,6 +65,16 @@
   color: #fff;
 }
 
+.cards-container {
+  background-color: #fff; 
+  width: auto;
+  height: auto;
+}
+
+.container img {
+  width: 80%;
+  height: auto;
+}
 
 @media (min-width: 576px) {
     .search-input {

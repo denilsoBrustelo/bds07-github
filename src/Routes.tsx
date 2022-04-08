@@ -1,7 +1,7 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from 'pages/Home';
 import Navbar from 'components/Navbar';
-import CepSearch from 'pages/CepSearch';
+import UserGitSearch from 'pages/UserGitSearch';
 
 const Routes = () => (
   <BrowserRouter>
@@ -11,7 +11,7 @@ const Routes = () => (
         <Home />
       </Route>
       <Route path="/cepsearch">
-        <CepSearch />
+        <UserGitSearch />
       </Route>
     </Switch>
   </BrowserRouter>
